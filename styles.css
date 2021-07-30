@@ -1,0 +1,192 @@
+/* desktop: 768 px;
+mobile: 320px; */
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: #3a4650;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-heading {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin: auto;
+    padding: 1.5rem;
+    background-color: #3a4650;
+}
+
+.section {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: #3a4650 solid 4px;
+
+}
+
+.section-head {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: .6rem;
+}
+
+.section-para {
+    display: block;
+    text-align: center;
+    padding: 0 1.3rem 2rem 0;
+    font-size: .8rem;
+    color: rgb(160, 160, 160);    
+}
+
+.line {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: .3rem;
+    border-top: #3a4650 solid 2px;
+}
+
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 0 none;
+}
+
+legend {
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    padding: 1rem 0;
+}
+
+input {
+    display: inline-block
+    
+}
+
+label {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: rgb(160, 160, 160); 
+    padding-bottom: .5rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 100%;
+    margin-bottom: .8rem;
+    padding: .8rem;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: .3rem;
+}
+
+select {
+    color: rgb(199, 199, 199);
+    
+}
+
+input#name::placeholder, 
+input#email::placeholder {
+    text-align: right;
+    font-style: italic;
+    color: rgb(199, 199, 199);
+}
+
+input[type="number"] {
+    display: block;
+    width: 50%;
+}
+
+.line2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: .5rem;
+    border-top: #3a4650 solid 2px;
+}
+
+p {
+    display: block;
+    
+    padding: .8rem 1.3rem 1rem 0;
+    font-size: .8rem;
+    color: rgb(160, 160, 160);  
+}
+
+input[type="checkbox"] {
+    margin-right: .7rem;
+}
+
+
+label[for="js_news"],
+label[for="css_news"],
+label[for="html_news"] {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+}
+
+
+input[type="radio"] {
+    display: inline-block;
+    margin-right: .7rem;
+}
+
+label[for="radio_html"],
+label[for="radio_text"] {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+}
+
+
+#othertopics {
+    width: 100%;
+    margin-bottom: .8rem;
+    padding: 2rem;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: .3rem;
+}
+
+button[type="submit"] {
+    width: 100%;
+    margin-bottom: .8rem;
+    padding: 1rem;
+    border: none;
+    background-color: rgb(99, 197, 197);
+    border-radius: .3rem;
+    margin-top: .7rem;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: rgb(160, 160, 160);  
+    font-size: .5rem;
+    font-style: italic;
+    padding-top: .5rem;
+    padding-bottom: 10rem;
+}
